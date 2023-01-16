@@ -9,6 +9,7 @@ public class Stor {
 		int profitRice=riseStock[0];
 		int profitwheat=riseStock[0];
 		int profitcotton=riseStock[0];
+		
 		for(int i = 0; i < 6;i++) {
 			int findDeffrnce=riseStock[i]-riseStock[i+1];
 			riseStock[i]=findDeffrnce;
